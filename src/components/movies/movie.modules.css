@@ -1,0 +1,125 @@
+*{
+ margin: 0;
+}
+
+/* .movies-section{
+    margin-top:3%;
+    margin-left:3%;
+} */
+.main-bar{
+    display: flex;
+}
+.header-section{
+    background-color: #030303;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.movies-filter{
+    width: 40vh;
+    height: 45vh;
+    overflow-y: scroll;
+    margin-top: 1%;
+    margin-left: 2%;
+
+}
+
+.website-title{
+    margin-left: 2%;
+    background-color: #F3CE13;
+    border-radius: 6px;
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movies-genre-list{
+    margin-top: 10%;
+}
+
+.each-movie-genre{
+    background: #c0ceff;
+    border-radius: 20.9396px;
+    width: 8vw;
+    height: 3.5vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15%;
+}
+.each-movie-genre-button{
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.movies-card-section{
+    display: flex;
+    width: 78%;
+    justify-content:flex-start;
+    overflow-y: scroll;
+    margin-top: 1%;
+    flex-wrap: wrap;
+}
+
+.movie-card{
+    background-color: #F3CE13;
+    width: 16vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.movie-img{
+    margin-top: 10%;
+    max-width: 100%;
+    max-height: 60%;
+}
+.movie-rating{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.movie-genre-category{
+    background: #ffffff;
+    border-radius: 20.9396px;
+    width: 4vw;
+    height: 3.5vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+.movie-genre{
+    display: flex;
+    width: 15vw;
+    height: 9vh;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.movie-details p{
+    font-size: medium;
+    margin-top: 1.5%;
+    margin-left: 10%;
+}
+.movie-title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    width: 15vw;
+}
